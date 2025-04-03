@@ -8,11 +8,11 @@ namespace BetterColorSpheres
 {
     class Color
     {
-        private byte Red { get; }
-        private byte Green { get; }
-        private byte Blue { get; }
-        private byte Alpha { get; }
-        private byte Gray
+        public byte Red { get; }
+        public byte Green { get; }
+        public byte Blue { get; }
+        public byte Alpha { get; }
+        public byte Gray
         {
             get
             {
