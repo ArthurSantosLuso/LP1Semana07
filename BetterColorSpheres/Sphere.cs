@@ -26,9 +26,5 @@ namespace BetterColorSpheres
                 QtdThrow++;
         }
 
-        public override string ToString()
-        {
-            return $"Color:\nR: {Color.Red}\nG: {Color.Green}\nB: {Color.Blue}\nRadius: {Radius}\nTimes throw: {QtdThrow}\n\n";
-        }
     }
 }

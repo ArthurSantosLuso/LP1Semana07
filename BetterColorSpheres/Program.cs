@@ -22,10 +22,14 @@ namespace BetterColorSpheres
             esfera3.Throw();
 
 
+            Console.WriteLine($"Sphere 1:\nColor:\nR: {esfera1.Color.Red}\nG: {esfera1.Color.Green}\nB: {esfera1.Color.Blue}\n" +
+                $"Radius: {esfera1.Radius}\nTimes throw: {esfera1.QtdThrow}\n\n");
 
-            Console.WriteLine($"Sphere 1:\n{esfera1}");
-            Console.WriteLine($"Sphere 2:\n{esfera2}");
-            Console.WriteLine($"Sphere 3:\n{esfera3}");
+            Console.WriteLine($"Sphere 2:\nColor:\nR: {esfera2.Color.Red}\nG: {esfera2.Color.Green}\nB: {esfera2.Color.Blue}\n" +
+                $"Radius: {esfera2.Radius}\nTimes throw: {esfera2.QtdThrow}\n\n");
+
+            Console.WriteLine($"Sphere 3:\nColor:\nR: {esfera3.Color.Red}\nG: {esfera3.Color.Green}\nB: {esfera3.Color.Blue}\n" +
+                $"Radius: {esfera3.Radius}\nTimes throw: {esfera3.QtdThrow}\n\n");
         }
     }
 }
