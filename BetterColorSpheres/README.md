@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Color {
         +byte Red
@@ -24,3 +25,4 @@ classDiagram
 
     Sphere --> Color : has a
     Program --> Sphere : uses
+```
