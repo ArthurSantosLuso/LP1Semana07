@@ -33,5 +33,23 @@ namespace PlayerStats
                     return 0;
             }
         }
+
+        public Player(string name)
+        {
+            Name = name;
+            HighScore = 0;
+            playedGames = 0;
+            wonGames = 0;
+        }
+
+        public void PlayGame(bool win)
+        {
+            // adicionar +1 jogo ao Player
+            playedGames++;
+
+            // Se ganhou, adicionar +1 vitoria ao jogador
+            if (win)
+                wonGames++;
+        }
     }
 }
