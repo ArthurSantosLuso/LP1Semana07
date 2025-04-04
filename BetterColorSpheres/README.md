@@ -25,4 +25,3 @@ classDiagram
 
     Sphere --> Color : has a
     Program --> Sphere : uses
-```
